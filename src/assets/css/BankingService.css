@@ -1,19 +1,19 @@
 .bankingService {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  text-align: center;
-  border: 3px solid #cacacaab;
-  padding: 1rem;
-  border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    border: 3px solid #cacacaab;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .bankingService h3 {
-  font-size: 1rem;
-  font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .bankingService p {
-  line-height: 110%;
+    line-height: 110%;
 }

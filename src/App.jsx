@@ -6,18 +6,18 @@ import AdminPage from "./pages/AdminPage";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div id="container">
-      <NavBar />
-      <main className="content center-margin">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/admin" element={<AdminPage />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <div id="container">
+            <NavBar />
+            <main className="content center-margin">
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/admin" element={<AdminPage />} />
+                </Routes>
+            </main>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
