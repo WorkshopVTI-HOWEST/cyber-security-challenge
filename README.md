@@ -13,3 +13,12 @@ A mock website of a banking company that is poorly developed. There are multiple
 2. Install the dependencies: `cd cyber & npm install`
 
 3. Run the enviroment: `npm run dev`
+
+## Hints in the project.
+
+1. On the admin page there is a data-hint on the input fields.
+
+    - Basically saying the username is admin.
+    - Refering to the robots.txt file.
+
+2. When loggin in with the wrong credentials, there should be a hint on what decrypting algoritm to use.
