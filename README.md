@@ -1,8 +1,15 @@
-# React + Vite
+# Cyber playground - workshop Prizma campus VTI izegem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A mock website of a banking company that is poorly developed. There are multiple vulnerable comments / hints hidden in this page. It's your goal to find them and use them to gain acces to the admin account.
+
+## Run playground
+
+1. Clone the repository: `git clone https://github.com/mattjemattias/cyber.git`
+
+2. Install the dependencies: `cd cyber & npm install`
+
+3. Run the enviroment: `npm run dev`
