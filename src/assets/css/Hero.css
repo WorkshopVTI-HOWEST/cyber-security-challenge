@@ -29,6 +29,7 @@
     max-width: 40%;
     border-radius: 1rem;
 }
+
 @media screen and (max-width: 64rem) {
     .hero {
         flex-direction: column;
