@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function TopSecretPage() {
+    const encryptedVersion = "ZG9udHNoYXJldGhpcw==";
     const handleCopyToClipboard = () => {
-        const encryptedVersion = "8087a52e0e37d2babef10aaf1c40ffc5";
         navigator.clipboard.writeText(encryptedVersion);
     };
 
@@ -17,7 +17,7 @@ export default function TopSecretPage() {
                     onClick={handleCopyToClipboard}
                     style={{ cursor: "pointer" }}
                 >
-                    ZG9udHNoYXJldGhpcw==
+                    {encryptedVersion}
                 </span>
             </p>
         </>
