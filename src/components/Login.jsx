@@ -40,7 +40,7 @@ export default function Login({ setIsLoggedIn }) {
                 />
                 {errorMessageVisible && (
                     <p className="error">
-                        The password looks weird no? maybe try decrypting it.
+                        You must have not decrypted the password correctly?
                     </p>
                 )}
                 <button type="submit">Log in</button>
