@@ -43,3 +43,9 @@
     color: #ffffff;
     background-color: #fb4d12;
 }
+
+.login .error {
+    color: #fb4d12;
+    font-weight: 600;
+    font-size: 14px;
+}
