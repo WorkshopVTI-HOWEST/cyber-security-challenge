@@ -22,3 +22,5 @@ A mock website of a banking company that is poorly developed. There are multiple
     - Refering to the robots.txt file.
 
 2. When loggin in with the wrong credentials, there should be a hint on what decrypting algoritm to use.
+
+3. There is a /topsecret page. On that page there is a base64 decrypted password.
