@@ -1,25 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../assets/css/Login.css";
-
-const credentials = {
-    username: "admin",
-    password: "dontsharethis",
-};
+import LoginService from "../service/LoginService.js";
 
 export default function Login() {
+    const loginService = new LoginService();
+
     const [username, setusername] = useState("");
     const [password, setPassword] = useState("");
+    const [errorMessageVisible, setErrorMessageVisible] = useState(false);
+
     function handleSubmit(e) {
         e.preventDefault();
-        if (
-            username === credentials.username &&
-            password === credentials.password
-        ) {
-            console.log("congrats you found the credentials");
+        if (loginService.login(username, password)) {
+            console.log("correct credentials");
         } else {
-            console.log("Password incorrect. Did you decode it correct?");
+            showErrorMessage();
         }
     }
+
+    function showErrorMessage() {
+        setErrorMessageVisible(true);
+    }
+
     return (
         <section className="login">
             <h2>Log in</h2>
@@ -36,6 +38,11 @@ export default function Login() {
                     data-hint="Remember what took over the world in the Terminator? The answer lies in that file."
                     onChange={(e) => setPassword(e.target.value)}
                 />
+                {errorMessageVisible && (
+                    <p className="error">
+                        The password looks weird no? maybe try decrypting it.
+                    </p>
+                )}
                 <button type="submit">Log in</button>
             </form>
         </section>
