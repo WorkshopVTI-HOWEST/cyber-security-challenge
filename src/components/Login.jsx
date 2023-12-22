@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../assets/css/Login.css";
 import LoginService from "../service/LoginService.js";
 
-export default function Login() {
+export default function Login({ setIsLoggedIn }) {
     const loginService = new LoginService();
 
     const [username, setusername] = useState("");
@@ -12,7 +12,7 @@ export default function Login() {
     function handleSubmit(e) {
         e.preventDefault();
         if (loginService.login(username, password)) {
-            console.log("correct credentials");
+            setIsLoggedIn(true);
         } else {
             showErrorMessage();
         }
