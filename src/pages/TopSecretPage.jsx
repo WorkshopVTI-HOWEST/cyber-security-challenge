@@ -11,15 +11,14 @@ export default function TopSecretPage() {
             <p>
                 Hi Bart, this page is in case you forgot your password. Im not
                 going to give you the password, but here is the encrypted
-                version:{" "}
+                version:
                 <span
                     className="accent bold"
                     onClick={handleCopyToClipboard}
                     style={{ cursor: "pointer" }}
                 >
                     ZG9udHNoYXJldGhpcw==
-                </span>{" "}
-                p.s. remember your dogs name...
+                </span>
             </p>
         </>
     );
