@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../assets/css/Login.css";
 import LoginService from "../service/LoginService.js";
 
