@@ -10,7 +10,6 @@
 }
 
 .ourMission div {
-    flex-grow: 1;
     display: flex;
     align-items: stretch;
     gap: 20px;
