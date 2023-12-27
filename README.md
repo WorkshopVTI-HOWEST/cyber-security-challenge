@@ -21,6 +21,10 @@ A mock website of a banking company that is poorly developed. There are multiple
     - Basically saying the username is admin.
     - Refering to the robots.txt file.
 
-2. When loggin in with the wrong credentials, there should be a hint on what decrypting algoritm to use.
+2. On the robots.txt file there is a url: /keepthishidden
 
-3. There is a /topsecret page. On that page there is a base64 decrypted password.
+3. On the /keepthishidden url there is a hint refering to their localstorage where they will find the /topsecret page.
+
+4. When loggin in with the wrong credentials, there should be a hint on what decrypting algoritm to use.
+
+5. There is a /topsecret page. On that page there is a base64 decrypted password.
