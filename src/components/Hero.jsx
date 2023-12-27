@@ -17,7 +17,7 @@ export default function Hero() {
                     professionals is here to navigate the intricate landscape of
                     finance with you.
                 </p>
-                <Link to="/">Contact us!</Link>
+                <Link to="/MaybeThereAreSomeHiddenURLS">Contact us!</Link>
             </div>
             <img
                 src="/src/assets/images/investment-banker.jpg"
