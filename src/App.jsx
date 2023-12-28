@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import AdminPage from "./pages/AdminPage";
 import TopSecretPage from "./pages/TopSecretPage";
 import KeepThisHiddenPage from "./pages/KeepThisHiddenPage";
+import NotFoundPage from "./pages/NotFoundPage";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
@@ -20,6 +21,7 @@ function App() {
                         path="/keepthishidden"
                         element={<KeepThisHiddenPage />}
                     />
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </main>
             <Footer />
