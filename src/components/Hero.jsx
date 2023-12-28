@@ -1,5 +1,6 @@
 import "../assets/css/Hero.css";
 import { Link } from "react-router-dom";
+import BankerImage from "../assets/images/investment-banker.jpg";
 
 export default function Hero() {
     return (
@@ -20,7 +21,7 @@ export default function Hero() {
                 <Link to="/MaybeThereAreSomeHiddenURLS">Contact us!</Link>
             </div>
             <img
-                src="/src/assets/images/investment-banker.jpg"
+                src={BankerImage}
                 alt="2 persons talking while working"
                 title="2 persons talking while working"
             />

@@ -1,5 +1,9 @@
 import "../assets/css/OurMission.css";
 import BankingService from "./BankingService";
+import PersonalBankingImage from "../assets/images/personalbanking-100x100-2c-100x100.png";
+import BusinessBankingImage from "../assets/images/small-biz-2c-100x100-1-100x100.png";
+import CommercialBankingImage from "../assets/images/checklist-clipboard-100x100.png";
+import WealthManagementImge from "../assets/images/checklist-clipboard-100x100.png";
 
 export default function OurMission() {
     return (
@@ -16,22 +20,22 @@ export default function OurMission() {
             </p>
             <div>
                 <BankingService
-                    imgSrc="/src/assets/images/personalbanking-100x100-2c-100x100.png"
+                    imgSrc={PersonalBankingImage}
                     title="Personal Banking"
                     description="Checking, savings, loans and more rom locals who are here to help in- person or online."
                 />
                 <BankingService
-                    imgSrc="/src/assets/images/small-biz-2c-100x100-1-100x100.png"
+                    imgSrc={BusinessBankingImage}
                     title="Business Banking"
                     description="Dedicated business banking and not- for-profit services from local bankers invested in your success."
                 />
                 <BankingService
-                    imgSrc="/src/assets/images/checklist-clipboard-100x100.png"
+                    imgSrc={CommercialBankingImage}
                     title="Commercial Banking"
                     description="Financing, banking, and treasury management services tailored to your business' goals."
                 />
                 <BankingService
-                    imgSrc="/src/assets/images/wealth-management-100x100-2c-100x100.png"
+                    imgSrc={WealthManagementImge}
                     title="Wealth Management"
                     description="Protect what you've earned, grow your wealth and build your legacy for the next generation."
                 />
