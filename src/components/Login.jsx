@@ -11,11 +11,8 @@ export default function Login({ setIsLoggedIn }) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        if (loginService.login(username, password)) {
-            setIsLoggedIn(true);
-        } else {
-            showErrorMessage();
-        }
+        const loggedIn = loginService.login(username, password);
+        loggedIn ? setIsLoggedIn(true) : showErrorMessage();
     }
 
     function showErrorMessage() {
