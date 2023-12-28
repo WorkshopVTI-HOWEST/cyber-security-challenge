@@ -5,14 +5,10 @@ const credentials = {
 
 class LoginService {
     login(username, password) {
-        if (
+        return (
             username === credentials.username &&
             password === credentials.password
-        ) {
-            return true;
-        } else {
-            return false;
-        }
+        );
     }
 }
 
