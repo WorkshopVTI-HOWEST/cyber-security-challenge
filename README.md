@@ -18,7 +18,7 @@ A mock website of a banking company that is poorly developed. There are multiple
 
 1. On the admin page there is a data-hint on the input fields.
 
-    - Basically saying the username is admin.
+    - Basically saying the username is admin. //TODO: make a social media page so they get the username from the social media page.
     - Refering to the robots.txt file.
 
 2. On the robots.txt file there is a url: /keepthishidden
