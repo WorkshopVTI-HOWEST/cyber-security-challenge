@@ -7,6 +7,7 @@ import KeepThisHiddenPage from "./pages/KeepThisHiddenPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import EmployeesPage from "./pages/EmployeesPage";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                         path="/keepthishidden"
                         element={<KeepThisHiddenPage />}
                     />
+                    <Route path="/employees" element={<EmployeesPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </main>
