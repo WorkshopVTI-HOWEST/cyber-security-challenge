@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../assets/css/Login.css";
-import LoginService from "../service/LoginService.js";
 
+// eslint-disable-next-line react/prop-types
 export default function Login({ setIsLoggedIn, login }) {
 
     const [username, setusername] = useState("");

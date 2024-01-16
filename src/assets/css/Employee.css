@@ -21,4 +21,15 @@ h1 {
     margin-right: 25px;
 }
 
+.salary {
+    margin-left: auto;
+}
+
+.salary input {
+    margin-left: 1rem;
+    border: 2px solid #fb4d12;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
 

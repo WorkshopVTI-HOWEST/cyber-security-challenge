@@ -3,6 +3,11 @@ const adminCredentials = {
     password: "dontsharethis",
 };
 
+const ceoCredentials = {
+    username: "Bert",
+    password: "Boomer"
+}
+
 class LoginService {
     Adminlogin(username, password) {
         return (
@@ -10,6 +15,14 @@ class LoginService {
             password === adminCredentials.password
         );
     }
+
+    CeoLogin(username, password) {
+        return (
+            username === ceoCredentials.username &&
+            password === ceoCredentials.password
+        );
+    }
+
 
 
 }
