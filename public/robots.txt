@@ -1,5 +1,5 @@
 User-agent: *
 
-Disallow:
+Disallow: /keepthishidden/
 
-Allow: /keepthishidden/
+Allow: /employees/
