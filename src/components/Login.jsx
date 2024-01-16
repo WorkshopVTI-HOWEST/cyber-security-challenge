@@ -24,13 +24,13 @@ export default function Login({ setIsLoggedIn, login }) {
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
-                    placeholder="username"
+                    placeholder="gebruikersnaam"
                     data-hint="Hint: The username is not that hard. Its the most used username for administrators."
                     onChange={(e) => setusername(e.target.value)}
                 />
                 <input
                     type="password"
-                    placeholder="password"
+                    placeholder="wachtwoord"
                     data-hint="Hint: Seek clues in a file named after mechanical friends."
                     onChange={(e) => setPassword(e.target.value)}
                 />

@@ -1,7 +1,7 @@
 import "../assets/css/Employee.css";
 
 // eslint-disable-next-line react/prop-types
-export default function Employee({ name, description, imgURL }) {
+export default function Employee({ name, description, imgURL}) {
     return (
         <div className="employee">
             <img src={imgURL} alt="employee image" title="employee image" />

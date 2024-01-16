@@ -9,35 +9,38 @@ export default function OurMission() {
     return (
         <section className="ourMission">
             <h2>
-                What kind of bank does your life{" "}
-                <span className="accent bold">need?</span>
+                Welke soort bank heb jij
+                <span className="accent bold"> nodig </span>
+                in je leven?
             </h2>
             <p>
-                Whether you're starting a family or expanding a business, you
-                need a bank that understands you. That's what Prosperity Trust
-                Bank does. No matter the size of your books, we're here to help
-                you <span className="accent bold">write your story</span>.
+                Of je nu een gezin sticht of een bedrijf uitbreidt,
+                je hebt een bank nodig die jou begrijpt.
+                Dat is wat Prosperity Trust Bank doet.
+                Ongeacht de omvang van je financiën,
+                staan we klaar om je te helpen
+                <span className="accent bold"> jouw verhaal te schrijven</span>.
             </p>
             <div>
                 <BankingService
                     imgSrc={PersonalBankingImage}
                     title="Personal Banking"
-                    description="Checking, savings, loans and more rom locals who are here to help in- person or online."
+                    description="Betaalrekeningen, spaarrekeningen, leningen en meer, allemaal van lokale mensen die klaarstaan om in persoon of online te helpen."
                 />
                 <BankingService
                     imgSrc={BusinessBankingImage}
                     title="Business Banking"
-                    description="Dedicated business banking and not- for-profit services from local bankers invested in your success."
+                    description="Toegewijde zakelijke bankdiensten en diensten voor non-profitorganisaties, verzorgd door lokale bankiers die betrokken zijn bij jouw succes."
                 />
                 <BankingService
                     imgSrc={CommercialBankingImage}
                     title="Commercial Banking"
-                    description="Financing, banking, and treasury management services tailored to your business' goals."
+                    description="Financiering, bankieren en treasury management diensten afgestemd op de doelen van jouw bedrijf."
                 />
                 <BankingService
                     imgSrc={WealthManagementImge}
                     title="Wealth Management"
-                    description="Protect what you've earned, grow your wealth and build your legacy for the next generation."
+                    description="Bescherm wat je hebt verdiend, laat je vermogen groeien en bouw aan jouw nalatenschap voor de volgende generatie."
                 />
             </div>
         </section>

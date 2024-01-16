@@ -7,18 +7,12 @@ export default function Hero() {
         <section className="hero">
             <div>
                 <h2>
-                    Where financial aspirations meet a{" "}
-                    <span className="accent">trusted</span> partner
+                    Waar financiële aspiraties samenkomen met een <span className="accent">vertrouwde</span> partner.
                 </h2>
                 <p>
-                    At Prosperity Trust Bank, our commitment is to empower
-                    individuals, families, and businesses to achieve their
-                    financial goals. From personalized banking solutions to
-                    expert financial guidance, our team of dedicated
-                    professionals is here to navigate the intricate landscape of
-                    finance with you.
+                    Bij Prosperity Trust Bank is onze toewijding om individuen, gezinnen en bedrijven te versterken zodat ze hun financiële doelen kunnen bereiken. Van gepersonaliseerde bankoplossingen tot deskundige financiële begeleiding, ons team van toegewijde professionals staat klaar om samen met jou het complexe landschap van financiën te verkennen.
                 </p>
-                <Link to="/MaybeThereAreSomeHiddenURLS">Contact us!</Link>
+                <Link to="/MaybeThereAreSomeHiddenURLS">Contacteer ons!</Link>
             </div>
             <img
                 src={BankerImage}

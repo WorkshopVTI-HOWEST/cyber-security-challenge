@@ -9,10 +9,10 @@ export default function EmployeeSalary({name, imgURL, initialSalary}) {
         let max = document.getElementById(name).max;
         let newSalary = parseInt(e.target.value, 10);
         newSalary = isNaN(newSalary) ? 0 : Math.min(max, Math.max(0, newSalary));
+        setSalary(newSalary);
         if (newSalary === 10000) {
             alert("Goed gedaan! Dit is de flag: 'ptbsalary'");
         }
-        setSalary(newSalary);
     };
 
     return (

@@ -43,16 +43,21 @@ export default function SocialPage() {
                         </div>
                     ) : (
                         <div className="employees">
-                            <button onClick={() => {setShowLogin(true)}}>Login as employee</button>
-                            <h1>Employees</h1>
+                            <button onClick={() => {setShowLogin(true)}}>Login als werknemer</button>
+                            <h1>werknemers</h1>
                             <Employee
                                 name="Bert"
-                                description="Bert is the CEO, he loves swimming and his dog called 'Boomer'."
+                                description={
+                                    <>
+                                        Bert is de CEO, bekijk zijn Facebook account {" "}
+                                        <a href="https://facebook.com">hier!</a>
+                                    </>
+                                }
                                 imgURL="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg"
                             />
                             <Employee
                                 name="Anja"
-                                description="Anja is the secretary, she loves numbers."
+                                description="Anja is de secretaresse, ze houd van nummers."
                                 imgURL="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             />
                             <Employee
