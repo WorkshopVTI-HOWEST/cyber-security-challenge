@@ -1,0 +1,16 @@
+.employees {
+    height: 40rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.employees button {
+    border-radius: 1rem;
+    border: 2px solid #fb4d12;
+    color: #fb4d12;
+    background-color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 10rem;
+}

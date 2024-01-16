@@ -1,15 +1,17 @@
-const credentials = {
+const adminCredentials = {
     username: "admin",
     password: "dontsharethis",
 };
 
 class LoginService {
-    login(username, password) {
+    Adminlogin(username, password) {
         return (
-            username === credentials.username &&
-            password === credentials.password
+            username === adminCredentials.username &&
+            password === adminCredentials.password
         );
     }
+
+
 }
 
 export default LoginService;

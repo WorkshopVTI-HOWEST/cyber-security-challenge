@@ -28,3 +28,11 @@ A mock website of a banking company that is poorly developed. There are multiple
 4. When loggin in with the wrong credentials, there should be a hint on what decrypting algoritm to use.
 
 5. There is a /topsecret page. On that page there is a base64 decrypted password.
+
+### Finding birthday of Arthur
+
+1. Download profile picture from Arthur, open up in text editor or online metadata editor. 
+2. Picture is taken on 2023/04/16 (y/m/d), on his 30th birthday. 
+3. Arthur is born on the 16th of April 1993.
+
+

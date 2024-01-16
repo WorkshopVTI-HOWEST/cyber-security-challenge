@@ -2,8 +2,7 @@ import { useState } from "react";
 import "../assets/css/Login.css";
 import LoginService from "../service/LoginService.js";
 
-export default function Login({ setIsLoggedIn }) {
-    const loginService = new LoginService();
+export default function Login({ setIsLoggedIn, login }) {
 
     const [username, setusername] = useState("");
     const [password, setPassword] = useState("");
@@ -11,7 +10,7 @@ export default function Login({ setIsLoggedIn }) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        const loggedIn = loginService.login(username, password);
+        const loggedIn = login(username, password);
         loggedIn ? setIsLoggedIn(true) : showErrorMessage();
     }
 
