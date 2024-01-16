@@ -9,7 +9,11 @@ export default function AdminPage() {
     return (
         <>
             {isLoggedin ? (
-                <div>Welcome, Admin!</div>
+                <>
+                    <div>Welcome, Admin!</div>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    <p>Goed gedaan, dit is de flag: 'ptb-login-admin'</p>
+                </>
             ) : (
                 <Login setIsLoggedIn={setIsLoggedin} login={loginService.Adminlogin} /> // props meegeven
             )}

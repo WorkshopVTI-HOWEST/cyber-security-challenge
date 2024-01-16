@@ -17,6 +17,8 @@ export default function SocialPage() {
 
                 <div className="employees">
                     <p>Welcome Bert!</p>
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    <p>Goed gedaan, dit is de flag: 'ptb-Bert-login'</p>
                     <EmployeeSalary
                         initialSalary="3550"
                         name="Anja"

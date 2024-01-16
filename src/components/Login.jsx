@@ -25,18 +25,18 @@ export default function Login({ setIsLoggedIn, login }) {
                 <input
                     type="text"
                     placeholder="gebruikersnaam"
-                    data-hint="Hint: The username is not that hard. Its the most used username for administrators."
+                    data-hint="Hint: De gebruikersnaam is niet zo moeilijk. Het is de meest gebruikte gebruikersnaam voor administrators."
                     onChange={(e) => setusername(e.target.value)}
                 />
                 <input
                     type="password"
                     placeholder="wachtwoord"
-                    data-hint="Hint: Seek clues in a file named after mechanical friends."
+                    data-hint="Hint: Zoek aanwijzingen in een bestand dat genoemd is naar mechanische vrienden."
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 {errorMessageVisible && (
                     <p className="error">
-                        You must have not decrypted the password correctly?
+                        Je hebt het wachtwoord waarschijnlijk niet correct ontsleuteld?
                     </p>
                 )}
                 <button type="submit">Log in</button>

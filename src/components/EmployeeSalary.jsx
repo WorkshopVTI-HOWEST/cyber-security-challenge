@@ -11,7 +11,7 @@ export default function EmployeeSalary({name, imgURL, initialSalary}) {
         newSalary = isNaN(newSalary) ? 0 : Math.min(max, Math.max(0, newSalary));
         setSalary(newSalary);
         if (newSalary === 10000) {
-            alert("Goed gedaan! Dit is de flag: 'ptbsalary'");
+            alert("Goed gedaan! Dit is de flag: 'ptb-loon'");
         }
     };
 
