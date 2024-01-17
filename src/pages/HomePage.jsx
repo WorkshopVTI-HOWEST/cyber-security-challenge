@@ -5,7 +5,7 @@ import {useEffect} from "react";
 export default function HomePage() {
 
     useEffect(() => {
-        fetch("https://google.com")
+        fetch("https://flask.lukasolivier.be/employees")
     }, []);
 
     return (

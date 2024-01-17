@@ -4,13 +4,12 @@ export default function KeepThisHiddenPage() {
     useEffect(() => {
         localStorage.setItem(
             "secret URL",
-            "Someone once told me that there is a hidden URL. Not a single person ever found it because it's 'topsecret'."
+            "Iemand vertelde me ooit dat er een verborgen URL is. Geen enkel persoon heeft dit ooit gevonden omdat het 'topsecret' is."
         );
     }, []);
     return (
         <>
-            There is nothing on this page. Maybe there is something stored on
-            your machine?
+            Er staat niets op deze pagina. Misschien is er iets opgeslagen in de ontwikkelaarstools?
         </>
     );
 }
