@@ -36,3 +36,13 @@ A mock website of a banking company that is poorly developed. There are multiple
 3. Arthur is born on the 16th of April 1993.
 
 
+### salary change
+1. you can change the "max" attribute on the input field
+2. fill in 10000 to get an alert with the flag
+
+### Network analysis
+1. whenever you go to the home page, a request is send to https://flask.lukasolivier.be/employees
+2. there is a flag inside the response
+
+
+
