@@ -15,6 +15,9 @@ function NavBar() {
                     <li>
                         <Link to="/admin">Admin</Link>
                     </li>
+                    <li>
+                        <Link to="/employees">Medewerkers</Link>
+                    </li>
                 </ul>
             </nav>
         </header>

@@ -52,7 +52,7 @@ export default function SocialPage() {
                                 description={
                                     <>
                                         Bert is de CEO, bekijk zijn Facebook account {" "}
-                                        <a href="https://facebook.com">hier!</a>
+                                        <a href="https://www.facebook.com/profile.php?id=61555713810734">hier!</a>
                                     </>
                                 }
                                 imgURL="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg"

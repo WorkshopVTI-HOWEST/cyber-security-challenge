@@ -4,14 +4,13 @@ export default function TopSecretPage() {
     const encryptedVersion = "ZG9udHNoYXJldGhpcw==";
     const handleCopyToClipboard = () => {
         navigator.clipboard.writeText(encryptedVersion);
+        alert("gekopieerd")
     };
 
     return (
         <>
             <p>
-                Hi Bart, this page is in case you forgot your password. Im not
-                going to give you the password, but here is the encrypted
-                version:{" "}
+                Hallo Bert, deze pagina is voor het geval je het administrator wachtwoord vergeten bent. Ik geef je niet zomaar het wachtwoord, maar hier is de gencrypteerde versie{" "}
                 <span
                     className="accent bold"
                     onClick={handleCopyToClipboard}

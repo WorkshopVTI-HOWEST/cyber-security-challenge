@@ -1,15 +1,15 @@
-import { useEffect } from "react";
+import {useEffect} from "react";
+
 
 export default function KeepThisHiddenPage() {
     useEffect(() => {
-        localStorage.setItem(
-            "secret URL",
-            "Iemand vertelde me ooit dat er een verborgen URL is. Geen enkel persoon heeft dit ooit gevonden omdat het 'topsecret' is."
-        );
-    }, []);
+        alert("Goed gedaan! Dit is de flag: 'ptb-keepthishidden'");
+    }, []); // The empty dependency array ensures that the effect runs only once
+
     return (
         <>
-            Er staat niets op deze pagina. Misschien is er iets opgeslagen in de ontwikkelaarstools?
+            <p>Niemand mag deze pagina zien. Ik mag ook niet vergeten dit uit de robots.txt te halen! <br/><br/>
+            </p>
         </>
     );
 }
