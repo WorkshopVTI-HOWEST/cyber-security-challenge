@@ -31,18 +31,16 @@ A mock website of a banking company that is poorly developed. There are multiple
 
 ### Finding birthday of Arthur
 
-1. Download profile picture from Arthur, open up in text editor or online metadata editor. 
-2. Picture is taken on 2023/04/16 (y/m/d), on his 30th birthday. 
+1. Download profile picture from Arthur, open up in text editor or online metadata editor.
+2. Picture is taken on 2023/04/16 (y/m/d), on his 30th birthday.
 3. Arthur is born on the 16th of April 1993.
 
-
 ### salary change
+
 1. you can change the "max" attribute on the input field
 2. fill in 10000 to get an alert with the flag
 
 ### Network analysis
+
 1. whenever you go to the home page, a request is send to https://flask.lukasolivier.be/employees
 2. there is a flag inside the response
-
-
-
